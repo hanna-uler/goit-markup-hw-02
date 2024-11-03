@@ -43,12 +43,16 @@ h3 {font-weight: 500;
     line-height: 1.5;
     color: #2e2f42;
 }
-.nav-link:hover, .nav-link:focus, .nav-link:active, .address-link:hover, .address-link:focus, .address-link:active {color: #404bbf;}
-
+.nav-link:hover, .nav-link:focus {color: #404bbf;}
 .address {font-style: normal;}
 .address-link {
     font-weight: inherit;
     color: inherit;}
+        .address-link:hover,
+        .address-link:focus,
+        .address-link:active {
+            color: #404bbf;
+        }
 
 /* #endregion */
 
