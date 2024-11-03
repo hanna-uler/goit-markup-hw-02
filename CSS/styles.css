@@ -1,12 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        background-color: #fffff;
-}
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #fff;}
+
 h2 {font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -45,8 +45,8 @@ h3 {font-weight: 500;
 }
 .nav-link:hover, .nav-link:focus, .nav-link:active, .address-link:hover, .address-link:focus, .address-link:active {color: #404bbf;}
 
+.address {font-style: normal;}
 .address-link {
-    font-style: normal;
     font-weight: inherit;
     color: inherit;}
 
